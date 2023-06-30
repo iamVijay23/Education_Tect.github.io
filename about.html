@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduHub</title>
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- Swiper CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header sections start -->
+    <header class="header">
+      <a href="#" class="logo"><i class="fas fa-lightbulb"></i>Eduhub</a>
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="index.html">Home</a>
+        <a href="about.html">about</a>
+        <a href="courses.html">courses</a>
+        <a href="contact.html">contact</a>
+      </nav>
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- Account Form section start -->
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+      <div class="buttons">
+        <span class="btn active login-btn">login</span>
+        <span class="btn register-btn">Register</span>
+      </div>
+
+      <!-- Login Form -->
+      <form action="" class="login-form active">
+        <h3>login form</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password?</a>
+        </div>
+
+        <input type="submit" value="login now" class="btn" />
+      </form>
+
+      <!-- Registration form -->
+      <form action="" class="register-form">
+        <h3>register now</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input
+          type="password"
+          class="box"
+          placeholder="confirm your password" />
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </div>
+
+    <!-- Account Form section end -->
+    <!-- Header sections end -->
+    <section class="heading-link">
+      <h3>about us</h3>
+      <p><a href="home.html">home</a> / about</p>
+    </section>
+
+    <!-- about section starts  -->
+
+    <section class="about">
+      <div class="image">
+        <img src="images/about-img.jpg" alt="" />
+      </div>
+
+      <div class="content">
+        <h3 class="about-title">we have best courses for you</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam hic
+          magnam fugit exercitationem neque, quae laboriosam natus. Ut maxime
+          assumenda facere ea quasi accusamus dolores delectus tempora animi,
+          expedita iste.
+        </p>
+        <div class="icons-container">
+          <div class="icons">
+            <img src="images/about-icon-1.png" alt="" />
+            <h3>350+</h3>
+            <span>courses</span>
+          </div>
+          <div class="icons">
+            <img src="images/about-icon-2.png" alt="" />
+            <h3>1200+</h3>
+            <span>students</span>
+          </div>
+          <div class="icons">
+            <img src="images/about-icon-3.png" alt="" />
+            <h3>10+</h3>
+            <span>awards</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About sections end Here  -->
+
+    <!-- Teachers  section starts -->
+
+    <section class="teachers">
+      <h1 class="heading">expert teachers</h1>
+
+      <div class="swiper teachers-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-1.png" alt="teacher-1"/>
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>john deo</h3>
+              <span>Expert tutor</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-2.png" alt="teacher-2"/>
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>john deo</h3>
+              <span>Expert tutor</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-3.png" alt="teacher-3" />
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>john deo</h3>
+              <span>Expert tutor</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-4.png" alt="teacher-4"/>
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>john deo</h3>
+              <span>Expert tutor</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-5.png" alt="teacher-5" />
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>john deo</h3>
+              <span>Expert tutor</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-6.png" alt="teacher-6" />
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>john deo</h3>
+              <span>Expert tutor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Teachers  sections ends  -->
+
+    <!-- Student Reviews Section Start Here -->
+
+    <section class="reviews">
+      <h1 class="heading">Our Student reviews</h1>
+      <div class="swiper  reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quibusdam ipsam neque dolores ipsum perferendis nihil natus
+              repellendus obcaecati
+            </p>
+
+            <img src="images/pic-1.png" alt="pic-1">
+            <h3> john doe</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quibusdam ipsam neque dolores ipsum perferendis nihil natus
+              repellendus obcaecati
+            </p>
+
+            <img src="images/pic-2.png" alt="pic-2">
+            <h3> john doe</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quibusdam ipsam neque dolores ipsum perferendis nihil natus
+              repellendus obcaecati
+            </p>
+
+            <img src="images/pic-3.png" alt="pic-3">
+            <h3> john doe</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quibusdam ipsam neque dolores ipsum perferendis nihil natus
+              repellendus obcaecati
+            </p>
+
+            <img src="images/pic-4.png" alt="pic-4">
+            <h3> john doe</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quibusdam ipsam neque dolores ipsum perferendis nihil natus
+              repellendus obcaecati
+            </p>
+
+            <img src="images/pic-5.png" alt="pic-5">
+            <h3> john doe</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quibusdam ipsam neque dolores ipsum perferendis nihil natus
+              repellendus obcaecati
+            </p>
+
+            <img src="images/pic-6.png" alt="pic-6">
+            <h3> john doe</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Studentn Reviews End Here -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-lightbulb"></i>Eduhub</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+            architecto?
+          </p>
+
+          <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-instagram"></a>
+            <a href="" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="index.html" class="link">Home</a>
+          <a href="about.html" class="link">About</a>
+          <a href="courses.html" class="link">Courses</a>
+          <a href="contact.html" class="link">Contact</a>
+        </div>
+
+        <div class="box">
+          <h3>useful link</h3>
+
+          <a href="#" class="link">Help center</a>
+          <a href="#" class="link">Ask questions</a>
+          <a href="#" class="link">Send feedback</a>
+          <a href="#" class="link">Private policy</a>
+          <a href="#" class="link">Terms of use</a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>Subscribe for latest updates</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              id=""
+              class="email"
+              placeholder="enter your email" />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>Vijay Maurya</span> | All Rights Reserved
+      </div>
+    </section>
+
+    <!-- footer section end  -->
+
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
